@@ -14,7 +14,7 @@ $error=1;
 while ($donnees = $reponse->fetch())
 {
         //redirection
-        // partie
+
   header('location:ok.html');
  $error=0;
 }
